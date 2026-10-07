@@ -1,0 +1,28 @@
+CodeAlpha Task 1 — Basic Network Sniffer
+Final Validation Test
+Date: 2026-10-02
+
+Environment:
+Kali Linux: 192.168.56.102
+Ubuntu Linux: 192.168.56.105
+Network: VirtualBox Host-Only
+
+Test Traffic:
+ping -c 5 192.168.56.102
+
+Capture Results:
+Total packets : 42
+TCP packets   : 32
+UDP packets   : 0
+ICMP packets  : 10
+Other packets : 0
+
+Validation:
+Packet capture: PASS
+Protocol detection: PASS
+IP identification: PASS
+Port identification: PASS
+Packet logging: PASS
+Packet statistics: PASS
+Scapy version: 2.7.01
+Python syntax check: PASS
